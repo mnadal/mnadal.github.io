@@ -1690,7 +1690,7 @@
 		}
 
 	h2 {
-		font-size: 1.75rem;
+		font-size: 3rem;
 	}
 
 	h3 {
@@ -1774,19 +1774,19 @@
 	}
 
 	input, select, textarea {
-		color: #1e1f23;
+		color: #404041;
 	}
 
 	a {
-		color: #54a354;
+		color: #404041;
 	}
 
 	strong, b {
-		color: #1e1f23;
+		color: #404041;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #1e1f23;
+		color: #404041;
 	}
 
 	blockquote {
@@ -1831,7 +1831,7 @@
 			}
 
 				.box header h2:after {
-					content: '';
+					: '';
 					position: absolute;
 					margin: auto;
 					right: 0;
@@ -2011,7 +2011,7 @@
 		.button.alt {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
-			color: #1e1f23 !important;
+			color: #404041 !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2044,7 +2044,7 @@
 		button.special,
 		.button.special {
 			background-color: #54a354;
-			color: #ffffff !important;
+			color: #404041 !important;
 		}
 
 			input[type="submit"].special:hover,
@@ -2232,7 +2232,7 @@
 	}
 
 	label {
-		color: #1e1f23;
+		color: #404041;
 	}
 
 	input[type="text"],
@@ -2422,6 +2422,13 @@
 			.image.main img {
 				width: 100%;
 			}
+
+			.responsive {
+	    width: 100%;
+	    max-width: 1200px;
+	    height: auto;
+	}
+
 
 /* List */
 
@@ -2681,7 +2688,7 @@
 			}
 
 		.spotlight.alt {
-			background: #1e1f23;
+			background: #404041;
 			color: rgba(255, 255, 255, 0.25);
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -2877,7 +2884,7 @@
 		}
 
 	table th {
-		color: #1e1f23;
+		color: #404041;
 	}
 
 	table thead {
@@ -2895,8 +2902,8 @@
 /* Header */
 
 	body {
-		background-color: #1e1f23;
-		padding-top: 8rem;
+		background-color: ##FFF;
+		padding-top: 4rem;
 	}
 
 		body.is-loading:after {
@@ -2946,6 +2953,8 @@
 		position: relative;
 		text-align: center;
 		z-index: 10001;
+		margin: 20px;
+		padding-bottom: 3em;
 	}
 
 		#header > .logo {
@@ -2956,7 +2965,7 @@
 			#header > .logo a {
 				font-size: 4rem;
 				font-weight: 700;
-				color: #FFF;
+				color: ##404041;
 				text-decoration: none;
 				line-height: 1rem;
 			}
@@ -2971,7 +2980,7 @@
 	@media screen and (max-width: 1280px) {
 
 		body {
-			padding-top: 6rem;
+			padding-top: 5rem;
 			background-attachment: scroll;
 			background-size: auto;
 			background-position: top;
@@ -3071,7 +3080,7 @@
 			}
 
 				.wrapper > header h2 {
-					font-size: 1.5rem;
+					font-size: 2rem;
 				}
 
 					.wrapper > header h2:after {
@@ -3102,13 +3111,13 @@
 		}
 
 	.wrapper.style2 {
-		background: #1e1f23;
+		background: #404041;
 		padding: 6rem;
 	}
 
 		.wrapper.style2 header {
 			background: #121315;
-			border-radius: 4px 4px 0 0;
+			border-radius: 4px;
 		}
 
 			.wrapper.style2 header h2 {
